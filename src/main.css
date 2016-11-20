@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 900px;
+  margin: 10px auto;
+}
+
+.navigation li {
+  display: block;
+  float: left;
+  margin-right: 2px;
+}
+
+.navigation a {
+  display: block;
+  width: 100px;
+  padding: 10px;
+  background: #ddd;
+  border-radius: 10px 10px 0 0;
+}
+
+.navigation a:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+.tab-content {
+  clear: both;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
